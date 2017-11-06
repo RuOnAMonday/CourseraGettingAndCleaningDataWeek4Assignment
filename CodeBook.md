@@ -1,16 +1,17 @@
-###DATA DICTIONARY FOR tidydata
+###DATA DICTIONARY FOR tidydata###
 
 This is a dataframe with 180 observations and  68 variables
 
 #ActivityName 
+
 Type of activity done by the participant.
 This is a factor variable of the following values:
   WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+  WALKING_UPSTAIRS
+  WALKING_DOWNSTAIRS
+  SITTING
+  STANDING
+  LAYING
 
 #Subject 
 Each individual participant has a unique subject ID, which is an integer.
