@@ -83,6 +83,7 @@ View(all_data)
 #4
 # Using the features definition to rename the column names in x
 # Note that I'm using the subset of columns which have mean and standard deviation - this was calculated in step 2.
+# I have done this step earlier but doing it again to show renaming data set with descriptive variables
 colnames(all_data) <- meanstdfeatures[,2]
 
 # Giving descriptive name for subject Column
@@ -103,5 +104,3 @@ averages_data <- ddply(all_data, .(ActivityName,Subject), function(x) colMeans(x
 View(averages_data)
 
 write.table(averages_data, "./UCI HAR Dataset/tidydata.txt", sep="\t", row.names = FALSE, col.names = TRUE)
-etc <- read.table("./UCI HAR Dataset/tidydata.txt")
-View(etc)
