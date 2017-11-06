@@ -2,27 +2,40 @@
 
 This is a dataframe with 180 observations and  68 variables
 
-#ActivityName 
+<b>ActivityName</b> 
 
 Type of activity done by the participant.
 This is a factor variable of the following values:
+  
   WALKING
+  
   WALKING_UPSTAIRS
+  
   WALKING_DOWNSTAIRS
+  
   SITTING
+  
   STANDING
+  
   LAYING
 
-#Subject 
+<b>Subject</b> 
+
 Each individual participant has a unique subject ID, which is an integer.
 
+
+<b>OTHER MEASUREMENT VARIABLES</b>
+
 #tBodyAcc-mean()-X 
+
 The mean Acceleration signals for body on the X axis
 
 #tBodyAcc-mean()-Y 
+
 The mean Acceleration signals for body on the Y axis
 
 #tBodyAcc-mean()-Z 
+
 The mean Acceleration signals for body on the Z axis
 
 #tBodyAcc-std()-X   
