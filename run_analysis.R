@@ -101,6 +101,8 @@ library(plyr)
 
 averages_data <- ddply(all_data, .(ActivityName,Subject), function(x) colMeans(x[, 1:66]))
 
-#View(averages_data)
+
 
 write.table(averages_data, "./UCI HAR Dataset/tidydata.txt", sep="\t", row.names = FALSE, col.names = TRUE)
+
+View(averages_data)                       
