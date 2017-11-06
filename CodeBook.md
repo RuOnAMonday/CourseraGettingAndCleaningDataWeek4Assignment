@@ -1,8 +1,8 @@
-DATA DICTIONARY FOR tidydata
+###DATA DICTIONARY FOR tidydata
 
 This is a dataframe with 180 observations and  68 variables
 
-ActivityName 
+#ActivityName 
 Type of activity done by the participant.
 This is a factor variable of the following values:
   WALKING
@@ -12,67 +12,67 @@ SITTING
 STANDING
 LAYING
 
-Subject 
+#Subject 
 Each individual participant has a unique subject ID, which is an integer.
 
-tBodyAcc-mean()-X 
+#tBodyAcc-mean()-X 
 The mean Acceleration signals for body on the X axis
 
-tBodyAcc-mean()-Y 
+#tBodyAcc-mean()-Y 
 The mean Acceleration signals for body on the Y axis
 
-tBodyAcc-mean()-Z 
+#tBodyAcc-mean()-Z 
 The mean Acceleration signals for body on the Z axis
 
-tBodyAcc-std()-X   
+#tBodyAcc-std()-X   
 The standard deviation for Acceleration signals for body on the X axis
 
-tBodyAcc-std()-Y        
+#tBodyAcc-std()-Y        
 The standard deviation for Acceleration signals for body on the Y axis    
 
-tBodyAcc-std()-Z 
+#tBodyAcc-std()-Z 
 The standard deviation for Acceleration signals for body on the Z axis           
 
-tGravityAcc-mean()-X     
+#tGravityAcc-mean()-X     
 The mean for Acceleration signals for gravity on the X axis
 
-tGravityAcc-mean()-Y  
+#tGravityAcc-mean()-Y  
 The mean for Acceleration signals for gravity on the Y axis
 
-tGravityAcc-mean()-Z    
+#tGravityAcc-mean()-Z    
 The mean for Acceleration signals for gravity on the Z axis
 
-tGravityAcc-std()-X         
+#tGravityAcc-std()-X         
 The standard deviation for Acceleration signals for gravity on the X axis
 
-tGravityAcc-std()-Y  
+#tGravityAcc-std()-Y  
 The standard deviation for Acceleration signals for gravity on the Y axis   
 
-tGravityAcc-std()-Z 
+#tGravityAcc-std()-Z 
 The standard deviation for Acceleration signals for gravity on the Z axis
 
-tBodyAccJerk-mean()-X    
+#tBodyAccJerk-mean()-X    
 The mean for Acceleration signals for jerk of the body on the X axis
 
-tBodyAccJerk-mean()-Y
+#tBodyAccJerk-mean()-Y
 The mean for Acceleration signals for jerk of the body on the Y axis
 
-tBodyAccJerk-mean()-Z  
+#tBodyAccJerk-mean()-Z  
 The mean for Acceleration signals for jerk of the body on the Z axis
 
-tBodyAccJerk-std()-X       
+#tBodyAccJerk-std()-X       
 The standard deviation for Acceleration signals for jerk of the body on the X axis
 
-tBodyAccJerk-std()-Y  
+#tBodyAccJerk-std()-Y  
 The standard deviation for Acceleration signals for jerk of the body on the Y axis
 
-tBodyAccJerk-std()-Z  
+#tBodyAccJerk-std()-Z  
 The standard deviation for Acceleration signals for jerk of the body on the Z axis
 
-tBodyGyro-mean()-X  
+#tBodyGyro-mean()-X  
 The mean for gyro signals for body on the X axis
 
-tBodyGyro-mean()-Y      
+#tBodyGyro-mean()-Y      
 The mean for gyro signals for the body on the Y axis
 
 tBodyGyro-mean()-Z  
