@@ -29,7 +29,7 @@ Each individual participant has a unique subject ID, which is an integer.
 
 
 <br/>
-<b>OTHER MEASUREMENT VARIABLES</b>
+<b>OTHER MEASUREMENT VARIABLES</b> of Type Integer
 
 #tBodyAcc-mean()-X 
 
