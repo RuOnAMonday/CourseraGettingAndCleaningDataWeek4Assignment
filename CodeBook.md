@@ -2,6 +2,8 @@
 
 This is a dataframe with 180 observations and  68 variables
 
+
+
 <b>ActivityName</b> 
 
 Type of activity done by the participant.
@@ -19,9 +21,12 @@ This is a factor variable of the following values:
   
   LAYING
 
+
+
 <b>Subject</b> 
 
 Each individual participant has a unique subject ID, which is an integer.
+
 
 
 <b>OTHER MEASUREMENT VARIABLES</b>
