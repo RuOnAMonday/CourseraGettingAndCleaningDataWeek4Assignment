@@ -2,7 +2,7 @@
 
 This is a dataframe with 180 observations and  68 variables
 
-
+<br/>
 
 <b>ActivityName</b> 
 
@@ -22,13 +22,13 @@ This is a factor variable of the following values:
   LAYING
 
 
-
+<br/>
 <b>Subject</b> 
 
 Each individual participant has a unique subject ID, which is an integer.
 
 
-
+<br/>
 <b>OTHER MEASUREMENT VARIABLES</b>
 
 #tBodyAcc-mean()-X 
